@@ -1,17 +1,14 @@
+package etc;
 import java.util.Scanner;
 
-public class EX27959 {
+public class Ex20492 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
-		int m = sc.nextInt();
 		
-		if(n*100 >= m)
-			System.out.println("Yes");
-		else
-			System.out.println("No");
+		System.out.println((int)(n*0.78) + " " + (int)(n - (n * 0.2 * 0.22)));
 	}
 
 }
